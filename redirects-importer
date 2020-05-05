@@ -38,7 +38,7 @@ use TYPO3\CMS\Redirects\Service\SlugService;
         $originalUrl = parse_url(trim($data[0]));
 
         $pagesQueryBuilder->resetQueryPart('where');
-        $statement = $pagesQueryBuilder->select('pid')
+        $statement = $pagesQueryBuilder->select('uid')
             ->from('pages')
             ->andWhere($pagesQueryBuilder->expr()->eq(
                 'slug',
