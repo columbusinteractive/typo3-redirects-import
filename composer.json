@@ -1,0 +1,33 @@
+{
+    "name": "columbusinteractive/redirectsimporter",
+    "type": "library",
+    "description": "Import redirects from a CSV and match the TYPO3 page via slug",
+    "license": "MIT",
+    "homepage": "https://github.com/columbusinteractive/typo3-easycaptcha",
+    "keywords": [
+        "typo3",
+        "redirects",
+        "import"
+    ],
+    "authors": [
+        {
+            "name": "Columbus Interactive GmbH",
+            "email": "hello@columbus-interactive.de",
+            "homepage": "https://www.columbus-interactive.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@columbus-interactive.de",
+        "source": "https://github.com/columbusinteractive/typo3-redirects-import"
+    },
+    "require": {
+        "php": "^7.2",
+        "typo3/cms-core": "^9.5 || ^10.4",
+        "typo3/cms-redirects": "^9.5 || ^10.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "bin": ["redirects-importer"]
+}
