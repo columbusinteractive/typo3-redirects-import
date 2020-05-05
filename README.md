@@ -1,0 +1,1 @@
+# typo3-redirects-import
